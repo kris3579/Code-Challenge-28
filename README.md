@@ -6,4 +6,4 @@ Write a function which finds common values from two binary trees, preferably usi
 
 ## Travis
 
-[![Build Status](https://travis-ci.com/kris3579/Code-Challenge-27.svg?branch=master)](https://travis-ci.com/kris3579/Code-Challenge-27)
+[![Build Status](https://travis-ci.com/kris3579/Code-Challenge-28.svg?branch=master)](https://travis-ci.com/kris3579/Code-Challenge-28)
