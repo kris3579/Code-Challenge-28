@@ -2,7 +2,9 @@
 
 module.exports = function treeIntersection(treeA, treeB) {
   const treeAMap = new Map();
-  const compareMap = new Map()(function traverseAndSetMap(root) {
+  const compareMap = new Map();
+
+  (function traverseAndSetMap(root) {
     if (root === null) {
       return undefined;
     }
@@ -16,7 +18,7 @@ module.exports = function treeIntersection(treeA, treeB) {
     if (root === null) {
       return undefined;
     }
-    if (treeAMap.get(root.value) && !compareMap(root.value)) {
+    if (treeAMap.get(root.value) && !compareMap.get(root.value)) {
       compareMap.set(root.value, true);
     }
     traverseAndCompareMap(root.left);
