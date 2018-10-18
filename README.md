@@ -1,9 +1,9 @@
-# Repeated Word
+# Tree Intersection
 
 ## Challenge
 
-Write a function which takes in a long string and returns the first word to appear multiple times with the lowest possible spendure of time and space.
+Write a function which finds common values from two binary trees, preferably using maps for the best speed.
 
 ## Travis
 
-[![Build Status](https://travis-ci.com/kris3579/Code-Challenge-27.svg?branch=master)](https://travis-ci.com/kris3579/Code-Challenge-27)
+[![Build Status](https://travis-ci.com/kris3579/Code-Challenge-28.svg?branch=master)](https://travis-ci.com/kris3579/Code-Challenge-28)

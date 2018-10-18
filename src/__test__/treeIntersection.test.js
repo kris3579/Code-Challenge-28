@@ -5,27 +5,25 @@ const Node = require('../lib/Node');
 const Tree = require('../lib/Tree');
 
 const testTreeA = new Tree(10);
-testTreeA.root.left(9);
-testTreeA.root.right(11);
-testTreeA.root.left.right(8);
-testTreeA.root.right.left(12);
+testTreeA.root.left = new Node(9);
+testTreeA.root.right = new Node(11);
+testTreeA.root.left.right = new Node(8);
+testTreeA.root.right.left = new Node(12);
 
 const testTreeB = new Tree(5);
-testTreeB.root.left(6);
-testTreeB.root.right(7);
-testTreeB.root.right.right(8);
-testTreeB.root.right.right.right(10);
+testTreeB.root.left = new Node(6);
+testTreeB.root.right = new Node(7);
+testTreeB.root.right.right = new Node(8);
+testTreeB.root.right.right.right = new Node(10);
 
 const testTreeC = new Tree(1);
-testTreeC.root.left(2);
-testTreeC.root.right(3);
-testTreeC.root.left.left(4);
+testTreeC.root.left = new Node(2);
+testTreeC.root.right = new Node(3);
+testTreeC.root.left.left = new Node(4);
 
 const testTreeD = new Tree(10);
-testTreeD.root.right(10);
-testTreeD.root.left(9);
-
-const emptyTree = new Tree();
+testTreeD.root.right = new Node(10);
+testTreeD.root.left = new Node(9);
 
 describe('repeatedWord.js', () => {
   test('Successfully returned common values, 8 and 10', () => {
